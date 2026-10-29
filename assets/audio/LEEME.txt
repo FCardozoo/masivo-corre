@@ -1,0 +1,2 @@
+Opcional: coloca aqui guarania.mp3 (o cambia la ruta en js/config.js -> music).
+Si no existe, el juego genera una guarania lenta automaticamente.

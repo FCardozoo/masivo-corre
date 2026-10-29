@@ -1,0 +1,6 @@
+Sprites actuales (PNG con fondo transparente):
+  player.png    -> personaje principal
+  enemy.png     -> enemigos
+  coin.png      -> monedas (terere)
+  mushroom.png  -> hongo (chipa argolla)
+Para cambiarlos, reemplaza el archivo con el mismo nombre. Ajusta el tamano en pantalla en js/config.js -> size.

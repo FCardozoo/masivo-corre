@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Masivo Corre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="touch">
+    <div class="grp"><button data-k="TL">◀</button><button data-k="TR">▶</button></div>
+    <div class="grp"><button data-k="TJ">▲</button></div>
+  </div>
+  <div id="rotate">GIRA TU TELÉFONO<br>PARA JUGAR</div>
+  <!-- El orden importa: cada archivo usa lo que define el anterior -->
+  <script src="js/config.js"></script>
+  <script src="js/assets.js"></script>
+  <script src="js/levels.js"></script>
+  <script src="js/sfx.js"></script>
+  <script src="js/music.js"></script>
+  <script src="js/scenery.js"></script>
+  <script src="js/characters.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/credits.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
